@@ -1,8 +1,6 @@
 # wechat
 
-seajs模块化
-
-常见的 JavaScript 模块化规范
+## 常见的 JavaScript 模块化规范
 
 - CommonJS
   + Node.js
@@ -14,6 +12,7 @@ seajs模块化
   + ECMAScript 6
 - UMD
 
+## seajs用法
 1. 在页面中引入 sea.js
 2. 使用 `define` 函数定义模块
 3. 使用 `require` 函数加载模块
@@ -21,4 +20,6 @@ seajs模块化
 5. 使用 `seajs.use` 函数启动模块系统
 
 
-富文本编辑器 wangEditor-mobile
+## 富文本编辑器 wangEditor-mobile
+
+[详细api请点击前往查看](https://github.com/wangfupeng1988/wangEditor/)
