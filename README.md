@@ -5,9 +5,9 @@
 - CommonJS
   + Node.js
 - AMD
-  + RequireJS
+  + RequireJS AMD 是提前执行  推崇依赖前置
 - CMD Common Module Definition
-  + CMD 就是 SeaJS 这个模块加载器在推广的过程中定义的一个模块规范
+  + CMD 就是 SeaJS  CMD 是延迟执行 推崇依赖就近
 - ECMAScript
   + ECMAScript 6
 - UMD
