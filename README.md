@@ -23,3 +23,7 @@
 ## 富文本编辑器 wangEditor-mobile
 
 [详细api请点击前往查看](https://github.com/wangfupeng1988/wangEditor/)
+
+## 提议表单内容必填，否则不能提交
+提交时，检测所有字段，如果有为空时，则return，跳出函数，停止当前js的执行
+   
