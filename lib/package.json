@@ -1,0 +1,7 @@
+{
+  "content": [{"type":"text","content":"请输入您的活动提议内容供大家了解基本情况"},{"type":"text","content":"我的活动"},{"type":"text","content":""},{"type":"image","content":"http://oodpya7z3.bkt.clouddn.com/CTS_1501233125514_wangEditorMobileFile.jpg","width":"700","high":"1004"},{"type":"text","content":"我的活动2"},{"type":"text","content":"我的"},{"type":"text","content":""},{"type":"image","content":"http://oodpya7z3.bkt.clouddn.com/CTS_1501233142225_wangEditorMobileFile.jpg","width":"1200","high":"1872"},{"type":"text","content":"我的"}],
+  "coverPhoto":"http://or9dun107.bkt.clouddn.com/CTS_1501233111159.jpg",
+  "name": "我的活动提议",
+  "tabs": [{"id":"CA03","name":"卫生健康"},{"id":"CA07","name":"教育服务"},{"id":"CA08","name":"尊老扶幼"},{"id":"CA12","name":"服务三农"}],
+  "userId": "Localhost_kEyUHA1xhQcD"
+}

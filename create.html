@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="shortcut icon" href="images/bitbug_favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="fonts/css/wangEditor-mobile.css">
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/create.css"/>
+    <!--<script src="jquery-1.8.3/jquery.min.js"></script>-->
+    <script src="layer/layer.js"></script>
+    <script src="js/common.js"></script>
+    <script src="seajs/sea.js"></script>
+    <script type="text/javascript" src="lib/zepto.js"></script>
+    <script type="text/javascript" src="lib/zepto.touch.js"></script>
+    <script type="text/javascript" src="lib/wangEditor-mobile.js"></script>
+    <style>
+
+        body .demo-class .layui-layer-title{background:#E94E3D; color:#fff; border: none;}
+        body .demo-class .layui-layer-btn a {background:#E94E3D;}
+        body .demo-class .layui-layer-btn a {border: none}
+        body .demo-class .layui-layer-btn .layui-layer-btn1{background:#999;}
+
+    </style>
+</head>
+<body>
+<form id="myform" action="">
+    <h3>提议名称</h3>
+    <input type="text" class="title_top" name="title" placeholder="请输入名称，尽量保持简短"/><img class="upbtn" src="images/上传图片.png" alt=""/>
+    <input type="text" class="src" id="src" name="banner_src" value="" style="display: none"/>
+    <h3>提议内容</h3>
+    <center>
+        <div class="container">
+            <textarea id="textarea1" name="content" style="width:100%;height:150%;">
+                <p>请输入您的活动提议内容供大家了解基本情况</p>
+                <p><br/></p>
+                <p><br/></p>
+                <p><br/></p>
+                <p><br/></p>
+            </textarea>
+        </div>
+    </center>
+    <h3 class="mark">活动标签</h3>
+    <div class="tag">
+        <label class="label"><input name="mark" type="checkbox" data-id="CA01" data-value="环境保护"/> 环境保护 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA02" data-value="文化艺术"/> 文化艺术 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA03" data-value="卫生健康"/> 卫生健康 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA04" data-value="科学技术"/> 科学技术 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA05" data-value="交通安全"/> 交通安全 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA06" data-value="社区服务"/> 社区服务 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA07" data-value="教育服务"/> 教育服务 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA08" data-value="尊老扶幼"/> 尊老扶幼 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA09" data-value="应急救援"/> 应急救援 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA10" data-value="扶贫助残"/> 扶贫助残 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA11" data-value="法律援助"/> 法律援助 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA12" data-value="服务三农"/> 服务三农 </label>
+        <label class="label"><input name="mark" type="checkbox" data-id="CA13" data-value="慈善救助"/> 慈善救助 </label>
+    </div>
+    <input type="button" class="sbm" id="sbm"  value="提交信息"/>
+    <div style="display: none" class="hidden_data">
+    </div>
+</form>
+</body>
+<!--<script src="js/create.js"></script>-->
+<script>
+    //加载活动提议模块
+    seajs.use(["./js/create.js"], function () {
+
+    })
+</script>
+</html>
